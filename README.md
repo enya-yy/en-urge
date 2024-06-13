@@ -14,7 +14,7 @@
 ## Usage
 
 ```bash
-gh repo create --template yuler/mini-starter
+gh repo create <your_app_name> --template yuler/mini-starter
 cp .env.example .env
 ```
 

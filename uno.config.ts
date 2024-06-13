@@ -18,6 +18,12 @@ export default defineConfig({
   ],
   blocklist: ['container'],
   safelist: 'm-auto invisible'.split(' '),
+  content: {
+    // Note: for `unocss` vscode plugin
+    pipeline: {
+      include: ['src/**/*.wxml'],
+    },
+  },
 })
 
 // https://unocss.dev/config/presets
